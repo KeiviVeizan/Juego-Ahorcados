@@ -77,7 +77,7 @@ function App() {
 
       {/*Mensaje si perdio */}
       {
-        (lose) ? <h2>Usted perdio, la palabra era: { word}</h2>: ''
+        (lose) ? <h2>Perdio, la palabra era: { word}</h2>: ''
       }
       {/*Mensaje si Gano */}
       {
